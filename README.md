@@ -54,17 +54,66 @@ D7 = X Y Z
 ![image](https://user-images.githubusercontent.com/36288975/171543866-5a6eace6-8683-49d7-9c4f-a7cb30ec3035.png)
 ## Figure -04 8 to 3 Decoder implementation 
 
-### Procedure
-/* write all the steps invloved */
+### Procedur
+```
+Step 1:
+Open Quartus II and select new project and choose the file location.
 
+Step 2:
+Module Declaration. Module should have the file name.
+
+Step 3:
+Input-Output Delecaration.
+
+Step 4:
+Use assign to define the functionality of logic circuits.
+
+Step 5:
+At the end give endmodule.
+
+Step 6:
+Run the program and choose RTL viewer to get RTL realization.
+```
 
 
 ### PROGRAM 
-/*
+
 Program for Endocers and Decoders  and verify its truth table in quartus using Verilog programming.
-Developed by: 
-RegisterNumber:  
-*/
+Developed by: LOKESH KUMAR P
+RegisterNumber: 212222240054
+
+### ENCODER:
+```
+module Encoder(a,b,c,d0,d1,d2,d3,d4,d5,d6,d7);
+input d0,d1,d2,d3,d4,d5,d6,d7;
+output a,b,c;
+or(a,d4,d5,d6,d7);
+or(b,d2,d3,d6,d7);
+or(c,d1,d3,d5,d7);
+endmodule
+```
+
+### DECODER:
+```
+module Decoder(d0,d1,d2,d3,d4,d5,d6,d7,a,b,c);
+input a,b,c;
+output d0,d1,d2,d3,d4,d5,d6,d7;
+assign d0 = (~a&~b&~c);
+assign d1 = (~a&~b&c);
+assign d2 = (~a&b&~c);
+assign d3 = (~a&b&c);
+assign d4 = (a&~b&~c);
+assign d5 = (a&~b&c);
+assign d6 = (a&b&~c);
+assign d7 = (a&b&c);
+endmodule
+
+```
+### OUTPUT:
+### ENCODER:
+
+
+
 
 
 
@@ -73,6 +122,7 @@ RegisterNumber:
 
 ### RTL LOGIC  
 
+![Screenshot 2023-05-11 144551](https://github.com/LOKESHKUMARPANCHATCHARAM/Experiment-08-Encoders-and-decoders-/assets/119644432/9f98e2ef-bb38-4590-ae5f-e6535f5d68c0)
 
 
 
@@ -82,15 +132,32 @@ RegisterNumber:
 
 ### TIMING DIGRAMS  
 
+![Screenshot 2023-05-11 144605](https://github.com/LOKESHKUMARPANCHATCHARAM/Experiment-08-Encoders-and-decoders-/assets/119644432/86045106-af91-41b4-aca1-6b8eae5b500c)
 
 
 
 
-### TRUTH TABLE 
+### TRUTH TABLE
+
+
+### DECODER:
+
+
+### RTL LOGIC  
+![Uploading Screenshot 2023-05-11 145124.png…]()
 
 
 
 
+### TIMING DIGRAMS
 
 
-### RESULTS 
+
+### TRUTH TABLE
+
+
+### RESULT:
+Thus the program for encoder and decoder using verilog code is verified.
+
+
+
