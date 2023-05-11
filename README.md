@@ -138,6 +138,7 @@ endmodule
 
 
 ### TRUTH TABLE
+![image](https://github.com/LOKESHKUMARPANCHATCHARAM/Experiment-08-Encoders-and-decoders-/assets/119644432/fdba2afc-c598-4349-88fa-5e29d9bdfeca)
 
 
 
@@ -146,15 +147,18 @@ endmodule
 
 ### RTL LOGIC  
 
+![image](https://github.com/LOKESHKUMARPANCHATCHARAM/Experiment-08-Encoders-and-decoders-/assets/119644432/94353dc9-3037-4806-93ee-a1510254be73)
 
 
 
 
 ### TIMING DIGRAMS
 
+![image](https://github.com/LOKESHKUMARPANCHATCHARAM/Experiment-08-Encoders-and-decoders-/assets/119644432/9d7c074f-2d0d-4197-8d82-4643999a5de6)
 
 
 ### TRUTH TABLE
+![image](https://github.com/LOKESHKUMARPANCHATCHARAM/Experiment-08-Encoders-and-decoders-/assets/119644432/bacd3157-4827-4e9f-b7fa-e7d02a2e8b11)
 
 
 ### RESULT:
