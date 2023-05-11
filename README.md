@@ -140,11 +140,12 @@ endmodule
 ### TRUTH TABLE
 
 
+
 ### DECODER:
 
 
 ### RTL LOGIC  
-![Uploading Screenshot 2023-05-11 145124.png…]()
+
 
 
 
